@@ -11,6 +11,7 @@ class GamesController < ApplicationController
   end
 
   def update
+    @game.update(game_params)
   end
 
   def index
